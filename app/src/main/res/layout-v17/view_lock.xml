@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/porshe"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="30dp"
+        android:padding="30dp"
+        android:text="Swipe to unlock > "
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/textClock"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>
